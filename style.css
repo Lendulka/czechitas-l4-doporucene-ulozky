@@ -1,0 +1,132 @@
+/* Používáme intuitivní výpočet rozměrů prvků. */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 2rem;
+}
+
+h1,
+h3 {
+  color: rgb(27, 27, 173);
+}
+
+h2 {
+  margin-top: 1.2rem;
+  color: rgb(221, 32, 221);
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-conversion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 15rem;
+}
+
+#fahrenheit,
+#button-submit {
+  border: 1px solid rgb(16, 16, 223);
+  border-radius: 4px;
+  padding: 0.25rem;
+  font-size: 1rem;
+}
+
+#button-submit {
+  width: 6rem;
+  background-color: rgb(16, 16, 223);
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.description {
+  margin: 1rem 20rem 1rem 0;
+  line-height: 1.5;
+}
+
+.bold-color-1,
+.flight-from p {
+  color: rgb(16, 16, 223);
+  font-weight: bold;
+}
+
+.bold-color-2,
+.flight-to p {
+  color: rgb(14, 124, 14);
+  font-weight: bold;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid rgb(16, 16, 223);
+  padding: 4px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(16, 16, 223);
+  color: #fff;
+  font-weight: 200;
+}
+
+td {
+  color: rgb(16, 16, 223);
+  font-weight: 600;
+}
+
+.col-style {
+  width: 70px;
+  background-color: rgb(158, 158, 207);
+}
+
+.col-style-width {
+  width: 120px;
+}
+
+caption {
+  margin-bottom: 0.75rem;
+  text-align: left;
+  color: rgb(16, 16, 223);
+  font-weight: bold;
+}
+
+.table-bags-price caption {
+  margin-top: 1.2rem;
+}
+
+.plane-rotate {
+  transform: rotate(90deg);
+}
+
+.flight-from,
+.flight-to {
+  display: flex;
+  gap: 1rem;
+}
+
+.cabin-baggage {
+  margin-top: 1.2rem;
+}

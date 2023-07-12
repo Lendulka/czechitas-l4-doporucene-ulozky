@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="formatovac.js"></script>
+  <script type="module" src="prevod.js"></script>
+  <script type="module" src="letenka.js"></script>
+  <title>WEBOVÁ APLIKACE</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Lekce 04 - doporučené úložky na doma</h1>
+
+    <div class="container-date">
+      <h2>Formátovač data</h2>
+    </div>
+
+    <form id="conversion-form">
+      <h2>Převod Fahrenheit do Celsius</h2>
+      <div class="container-conversion">
+        <label for="fahrenheit"><span class="bold-color-1">Zadej stupně Fahrenheita (&#176F)</span></label>
+        <input type="number" id="fahrenheit" required autofocus />
+        <button type="submit" id="button-submit">Převést</button>
+      </div>
+    </form>
+
+    <div id="celsius"></div>
+
+    <p class="description">Stupeň Fahrenheita je jednotkou teploty. Absolutní hodnota jednoho stupně Fahrenheita odpovídá 5/9&nbsp;stupně Celsia. Bod mrazu ve&nbsp;stupních Fahrenheita odpovídá hodnotě 32 a bod varu 212&nbsp;stupňům.</p>
+
+    <div class="container-flight">
+      <h2>Letenka</h2>
+      <div class="timetable"></div>
+
+      <div class="cabin-baggage">
+        <table class="table-baggage-limits table">
+          <caption>Baggage limits</caption>
+          <tr>
+            <th>Size</th>
+            <th>Cabin baggage</th>
+          </tr>
+        </table>
+
+        <table class="table-bags-price table">
+          <caption>Baggage price</caption>
+          <tr>
+            <th>Number</th>
+            <th>Bag price</th>
+          </tr>
+        </table>
+      </div> <!-- end cabin-baggage -->
+    </div> <!-- end container-flight -->
+  </div> <!-- end container -->
+</body>
+
+</html>
