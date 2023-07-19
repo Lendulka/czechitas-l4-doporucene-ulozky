@@ -86,4 +86,9 @@ Z objektu s rozměry zavazadel vytáhněte maximální povolené rozměry přír
 Vypište do stránky, kolik cestující zaplatí za druhé zavazadlo v českých korunách zaokrouhleno nahoru na celé koruny.
 Pokud máte chuť, malinko stránku nastylujte, aby se uživatel v informacích vyznal.
 
+Used methods: 
+Object.keys(), Object.values()
+Array.push(), Array.indexOf(), Array.slice()
+Number.isInteger(), String.padStart(), String.match()
+Regular expressions
 
